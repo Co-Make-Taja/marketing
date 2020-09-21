@@ -64,7 +64,7 @@ table {
 
 body {
 	margin: 0;
-	background: var(--honeyDew);
+	background: ivory;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 }
@@ -72,7 +72,7 @@ body {
 .content {
   height: 100vh;
   /*background-image: url(//unsplash.it/1000/1000);*/
-  background-color: var(--honeyDew);
+  background-color: ivory;
   /*background-blend-mode: multiply;*/
   background-size: cover;
   display: grid;
@@ -235,6 +235,8 @@ text-align: left;
   
   .logo {
     grid-column: 2 / 3;
+    height: 5rem;
+    
   }
   
   nav {
