@@ -247,6 +247,32 @@ text-align: left;
 
 
 }
+
+.content {
+  color:black;
+  font-weight: bold;
+  border: 3px solid red;
+  background-image: url(/assets/hero.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+ 
+  
+  
+  
+  
+}
+.content h2 {
+  font-size: 1.5rem;
+  
+}
+.words {
+  margin: 15%;
+  
+ 
+}
+
 footer{
   display: flex;
   margin: 0rem, 25rem;
@@ -326,6 +352,7 @@ box-shadow: 2px 2px 4px var(--prussianBlue);
   .logo {
     grid-column: 2 / 3;
     height: 5rem;
+    width: 9rem;
     
   }
   
