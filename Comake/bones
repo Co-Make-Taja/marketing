@@ -1,59 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
-/* reset ends here*/
+
 :root {
   --background: rgba(0, 214, 170, .85);
-  --lightBlueBg: rgba(75, 136, 216);
   --prussianBlue: rgba(29, 53, 87);
-  --powderBlue: rgba(168, 218, 220);
+  --powederBlue: rgba(168, 218, 220);
   --honeyDew: rgba(241, 250, 238);
   --imperialRed: rgba(230, 57, 70);
 }
@@ -64,16 +14,16 @@ table {
 
 body {
 	margin: 0;
-	background: var(--honeyDew);
+	background: var(--background);
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 }
 
 .content {
-  height: 100vh;
+  height: 200vh;
   /*background-image: url(//unsplash.it/1000/1000);*/
-  background-color: var(--honeyDew);
-  /*background-blend-mode: multiply;*/
+  background-color: #333;
+  background-blend-mode: multiply;
   background-size: cover;
   display: grid;
   place-items: center;
@@ -190,10 +140,10 @@ nav a:hover {
 .menu-bar ul li:hover .sub-menu1 {
   display: flex;
   position: absolute;
-  background-color: var(--powderBlue);
+  background-color: gray;
   flex-direction: row;
   opacity: 80%;
-  widows: 15%;
+  width:15%;
   
   
   
@@ -229,8 +179,6 @@ text-align: left;
   header {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-    background-color: var(--lightBlueBg);
-    height: 5rem;
   }
   
   .logo {
@@ -292,7 +240,7 @@ text-align: left;
  .menu-bar ul li:hover .sub-menu1 {
     display: block;
     position: absolute;
-    background-color: var(--powderBlue);
+    background-color: gray;
     opacity: 80%;
     width:20%;
     
@@ -315,22 +263,8 @@ text-align: left;
  
  border-radius: 0;
  text-align: left;
-}
   
   
- footer{
-  display: flex;
-  margin: 0rem, 25rem;
-  background: var(--lightBlueBg);
-  flex-direction: column;
-  justify-content: space-around;
-  height: 5rem; 
-  text-align: center;
-  color: white;
-  
+ 
 }
-.email{
-  color: white;
-  text-decoration: none;
 }
-
