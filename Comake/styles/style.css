@@ -190,7 +190,7 @@ nav a:hover {
 .menu-bar ul li:hover .sub-menu1 {
   display: flex;
   position: absolute;
-  background-color: var(--powderBlue);
+  background-color: lightseagreen;
   flex-direction: row;
   opacity: 80%;
   widows: 15%;
@@ -212,7 +212,7 @@ margin-left: 5%;
 .menu-bar ul li:hover .sub-menu1 ul li {
 margin: 10%;
 padding: 5%;
-border-bottom: 2px solid black;
+border-bottom: 2px var(--lightBlueBg);
 
 border-radius: 0;
 text-align: left;
@@ -241,7 +241,8 @@ text-align: left;
   
   nav {
      all: unset; 
-    
+     
+ 
    
     position: relative;
     text-align: left;
@@ -265,6 +266,7 @@ text-align: left;
   nav li {
     margin-left: 3em;
     margin-bottom: 0;
+    
   }
   
   nav a {
@@ -276,7 +278,7 @@ text-align: left;
     content: '';
     display: block;
     height: 5px;
-    background: black;
+    background: lightskyblue;
     position: absolute;
     top: -.75em;
     left: 0;
@@ -287,16 +289,21 @@ text-align: left;
   
   nav a:hover::before {
     transform: scale(1,1);
+    
   }
  .sub-menu1 {
     display: none;
 }
  .menu-bar ul li:hover .sub-menu1 {
+  /*color: var(--honeyDew);*/
     display: block;
     position: absolute;
-    background-color: var(--powderBlue);
+    background-color: var(--lightBlueBg);
     opacity: 80%;
     width:20%;
+    
+    
+    
     
     
     
@@ -313,10 +320,10 @@ text-align: left;
 .menu-bar ul li:hover .sub-menu1 ul li {
  margin: 10%;
  padding: 2%;
- border-bottom: 2px solid black;
- 
+ /*border-bottom: 2px solid lightskyblue;*/
  border-radius: 0;
  text-align: left;
+ /*color: var(--honeyDew);*/
 }
   
   
