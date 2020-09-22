@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comake</title>
+    <title>Co-Make Team</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <style>
       @import url("https://fonts.googleapis.com/css?family=Work+Sans:300,600");
@@ -63,8 +63,10 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        margin-bottom: 6%;
       }
       .team-card h2 {
+        font-family: "Oswald", sans-serif;
         font-size: 2rem;
         padding: 1vh 0;
       }
@@ -72,6 +74,14 @@
       .team-member-image img {
         width: 100%;
       }
+
+      @media (max-width: 800px) {
+        .team-card {
+          width: 46%;
+        }
+
+      } 
+
     </style>
   </head>
   <body>
