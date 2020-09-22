@@ -68,7 +68,7 @@ table {
 
 body {
 	margin: 0;
-	background: ivory;
+	background: var(--prussianBlue);
   font-family: var(--montSerrat);
   font-weight: 400;
   
@@ -253,10 +253,14 @@ text-align: left;
   font-weight: bold;
   border: 3px solid red;
   background-image: url(/assets/hero.png);
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  
+  width: 100vw;
+  height: 50%;
  
   
   
@@ -264,15 +268,88 @@ text-align: left;
   
 }
 .content h2 {
-  font-size: 1.5rem;
-  
+  font-size:  clamp(2rem, 5vw, 7rem);
+  font-family: var(--montSerrat);
+  font-weight: bold;
+  text-align: center;
+  color: white;
 }
 .words {
-  margin: 15%;
+  margin-top: 25%;
   
  
 }
+.pop1 {
+  text-decoration: none;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 800;
+  margin-top: 10%;
 
+}
+.wrapper1 {
+  background: var(--lightBlueBg)
+  
+}
+.info {
+  text-align: center;
+  color: white;
+}
+h2 span {
+  font-weight: bold;
+  color: var(--prussianBlue);
+  font-size: 2.5rem;
+  font-family: var(--Oswald);
+}
+.info p {
+  margin: 5%;
+  font-family: var(--montSerrat);
+  font-size:1.25rem;
+}
+.centerLogo {
+  margin-top: 5%;
+}
+.h2Head{
+  font-size: clamp(2rem, 3vh, 4rem);
+  margin: 5%;
+  font-family: var(--montSerrat);
+  font-weight: 800;
+  
+  line-height:3rem;
+}
+.iconTxt {
+  text-align: center ;
+  padding: 5%;
+  
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mapImg {
+  width: 200px;
+  height: auto
+}
+.trustImg {
+  width: 250px;
+  height: auto;
+}
+.iconTxt h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 5%;
+  font-family: var(--Oswald);
+}
+.iconTxt p {
+  margin: 10%;
+  font-family: var(--montSerrat);
+  font-size:1.25rem;
+}
+hr {
+  border: 4px solid var(--imperialRed)
+}
 footer{
   display: flex;
   margin: 0rem, 25rem;
@@ -285,7 +362,7 @@ footer{
   text-decoration: none;
   font-size: 1.125rem;
   position: relative;
- 
+border-top: 5px solid var(--imperialRed)
   align-items: center;
 }
 footer p{
@@ -420,7 +497,7 @@ box-shadow: 2px 2px 4px var(--prussianBlue);
     position: absolute;
     background-color: var(--lightBlueBg);
     opacity: 80%;
-    width:20%;
+    width:25%;
     
     
     /*we are working together*/
@@ -433,13 +510,14 @@ box-shadow: 2px 2px 4px var(--prussianBlue);
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-basis: .75em;
-  padding: 1%;
+  flex-basis: 1em;
+  padding: .5%;
  
 }
 .menu-bar ul li:hover .sub-menu1 ul li {
- margin: 10%;
- padding: 2%;
+ margin: 8%;
+ padding: 1%;
+ padding-right: 2%;
  /*border-bottom: 2px solid lightskyblue;*/
  border-radius: 0;
  text-align: left;
