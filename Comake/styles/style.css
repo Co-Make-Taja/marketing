@@ -135,7 +135,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: white;
+  background: var(--honeyDew);;
   height: 2px;
   width: 2em;
   border-radius: 2px;
@@ -186,7 +186,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: var(--honeyDew);
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -254,7 +254,7 @@ text-align: left;
 }
 
 .content {
-  color:black;
+  color:var(--prussianBlue);;
   font-weight: bold;
  
   background-image: url(/assets/hero.png);
@@ -277,7 +277,7 @@ text-align: left;
   font-family: var(--montSerrat);
   font-weight: bold;
   text-align: center;
-  color: white;
+  color: var(--honeyDew);
 }
 .words {
   margin-top: 25%;
@@ -287,7 +287,7 @@ text-align: left;
 .pop1 {
   text-decoration: none;
   font-family: var(--Oswald);
-  background: white;
+  background: var(--honeyDew);
   border-radius: 5px;
   margin-bottom: 5%;
   text-align: center;
@@ -295,6 +295,7 @@ text-align: left;
   padding: 1rem;
   font-weight: 800;
   margin-top: 10%;
+  font-size: clamp(1rem , 1.3rem, 2rem);
 
 }
 .pop1:hover {
@@ -310,7 +311,7 @@ text-align: left;
 }
 .info {
   text-align: center;
-  color: white;
+  color: var(--honeyDew);
 }
 h2 span {
   font-weight: bold;
@@ -324,14 +325,14 @@ h2 span {
   font-size:1.25rem;
 }
 .centerLogo {
-  margin-top: 5%;
+  margin-top: 1%;
 }
 .h2Head{
   font-size: clamp(2rem, 3vh, 4rem);
   margin: 5%;
   font-family: var(--montSerrat);
   font-weight: 800;
-  
+  color: var(--imperialRed);
   line-height:3rem;
 }
 .iconTxt {
@@ -356,6 +357,7 @@ h2 span {
   font-weight: bolder;
   margin: 5%;
   font-family: var(--Oswald);
+  color: var(--imperialRed)
 }
 .iconTxt p {
   margin: 10%;
@@ -412,6 +414,7 @@ font-weight: 800;
 margin-right: 3%;
 box-shadow: 2px 2px 4px var(--prussianBlue);
 text-transform: uppercase;
+font-size: 1.3rem;
 
 
 
