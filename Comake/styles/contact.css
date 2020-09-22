@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,600");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Oswald&display=swap");
+
+#contact-main {
+  padding-top: 80px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+#contact-main h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 10rem;
+  padding: 10% 0 5%;
+}
+
+#contact-main h2 {
+  font-size: 3rem;
+  padding-bottom: 20%;
+}
+
+#contact-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0 4%;
+  background-color: var(--honeyDew);
+}
+
+#contact-info h3,
+a {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5%;
+}
+
+#contact-info .number {
+  display: flex;
+  flex-direction: column;
+}
+#contact-info .number a {
+  padding-top: 9%;
+  color: var(--prussianBlue);
+}
+
+@media (max-width: 800px) {
+  #contact-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  #contact-info .number a {
+    padding: 5% 0;
+  }
+}
