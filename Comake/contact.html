@@ -46,8 +46,18 @@
       }
       #contact-info .number a {
         padding-top: 9%;
+        color: var(--prussianBlue);
       }
-      
+
+      @media (max-width: 800px) {
+        #contact-info {
+          flex-direction: column;
+          text-align: center;
+        }
+        #contact-info .number a {
+          padding: 5% 0;
+        }
+      }
     </style>
   </head>
   <body>
