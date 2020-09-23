@@ -4,61 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Co-Make</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css?family=Work+Sans:300,600");
-      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Oswald&display=swap");
-
-      #contact-main {
-        padding-top: 80px;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-      }
-      #contact-main h1 {
-        font-family: "Oswald", sans-serif;
-        font-size: 10rem;
-        padding: 10% 0 5%;
-      } 
-      #contact-main h2 {
-        font-size: 3rem;
-        padding-bottom: 20%;
-      }
-
-      #contact-info {
-        display: flex;
-        justify-content: space-around;
-        padding: 5% 0 4%;
-        background-color: var(--honeyDew);
-      }
-
-      #contact-info h3,
-      a {
-        font-family: "Oswald", sans-serif;
-        font-size: 3rem;
-        text-decoration: none;
-        color: black;
-        margin-bottom: 5%;
-      }
-      #contact-info .number {
-        display: flex;
-        flex-direction: column;
-      }
-      #contact-info .number a {
-        padding-top: 9%;
-        color: var(--prussianBlue);
-      }
-
-      @media (max-width: 800px) {
-        #contact-info {
-          flex-direction: column;
-          text-align: center;
-        }
-        #contact-info .number a {
-          padding: 5% 0;
-        }
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles/contact.css" />
   </head>
   <body>
     <header>
@@ -86,11 +39,10 @@
       </label>
     </header>
 
-    <section id="contact-main">
+    <section id="contact-landing">
       <h1>Contact Us.</h1>
       <h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-        voluptate!
+        Want to get in touch with us? We'd love to hear from you. Here's how you can reach us...
       </h2>
     </section>
 
@@ -108,12 +60,13 @@
         <p>1-555-555-1234</p>
       </div>
     </section>
+    <footer>
+      <section id="question">
+        <p>Together we make the world better!</p>
+      </section>
+      <div id="contact">
+        <a class="email" href="mailto:agreatemail@here.com">Contact Us</a>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <section id="question"><p>Together we make the world better!</p></section>
-
-    <div id="contact">
-      <a class="email" href="mailto:agreatemail@here.com">Contact Us</a>
-    </div>
-  </footer>
 </html>
