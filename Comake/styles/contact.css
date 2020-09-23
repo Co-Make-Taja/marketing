@@ -72,3 +72,10 @@ footer a {
     padding: 5% 0;
   }
 }
+
+@media (max-width: 500px) {
+  #contact-landing h1 {
+    font-size: 6rem;
+    padding-bottom: 20%;
+  }
+}

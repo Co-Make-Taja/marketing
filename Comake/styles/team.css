@@ -70,13 +70,16 @@
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .team-card {
     width: 46%;
   }
 }
 
 @media (max-width: 500px) {
+  #team-landing {
+    padding-top: 66px;
+  }
   .team-card {
     width: 90%;
   }
