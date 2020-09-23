@@ -8,7 +8,7 @@
 }
 
 .team-hero-image {
-  background: url("/assets/tom-rumble-7lvzopTxjOU-unsplash.jpg");
+  background: url("/Comake/assets/tom-rumble-7lvzopTxjOU-unsplash.jpg");
   height: 80vh;
   width: 100%;
   background-size: cover;
@@ -43,7 +43,7 @@
 #team-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 5%;
 }
 
@@ -70,11 +70,17 @@
   width: 100%;
 }
 
+/* TEAM-GALLERY ends here */
+
+/* MEDIA QUERY FOR TABLET */
+
 @media (max-width: 800px) {
   .team-card {
     width: 46%;
   }
 }
+
+/* MEDIA QUERY FOR MOBILE */
 
 @media (max-width: 500px) {
   #team-landing {
