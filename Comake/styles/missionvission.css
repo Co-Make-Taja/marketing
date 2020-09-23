@@ -248,6 +248,7 @@ a:active {
   background-color: hsl(214, 64%, 57%);
   border-radius: 25px;
   border-color: blanchedalmond;
+  
 }
 .mission {
   padding-bottom: 2rem;
@@ -294,7 +295,7 @@ nav {
   padding-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   nav a {
     color: white;
     text-decoration: none;
@@ -306,7 +307,7 @@ nav {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   header {
     display: flex;
     flex-wrap: wrap;
