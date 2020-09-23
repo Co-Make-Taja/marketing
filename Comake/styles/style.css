@@ -258,14 +258,14 @@ text-align: left;
   color: var(--prussianBlue)
 }
 .FAQ{
-  border: 5px solid red;
+  
   width: 100%;
   
   background-color: var(--lightBlueBg);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10rem;
+  margin-bottom: 1rem;
   
 }
 .container1{
@@ -349,6 +349,10 @@ text-align: left;
 }
 .pop1:hover {
   transform: scale(1.1);
+  background: var(--imperialRed);
+  color: white;
+  box-shadow: none;
+  border: none;
 }
 .wrapper1 {
   background: var(--lightBlueBg)
@@ -377,11 +381,12 @@ h2 span {
   margin-top: 1%;
 }
 .h2Head{
-  font-size: clamp(2rem, 3vh, 4rem);
+  font-size: clamp(2.5rem, 3vh, 4rem);
   margin: 5%;
   font-family: var(--montSerrat);
   font-weight: 800;
-  color: var(--imperialRed);
+  color: var(--honeyDew);
+  font-style: italic;
   line-height:3rem;
 }
 .iconTxt {
@@ -481,8 +486,9 @@ header .popper{
   
   }
  header .popper:hover{
-    transform: scale(1.1);
-  
+  transform: scale(1.1);
+  background: var(--imperialRed);
+  color: white;
     
     }
 footer .pop{
@@ -491,20 +497,27 @@ background: var(--honeyDew);
 border-radius: 5px;
 margin-bottom: 1%;
 text-align: center;
-padding: .5rem;
+padding: .1rem 3rem;
 font-weight: 800;
 margin-right: 3%;
 box-shadow: 2px 2px 4px var(--prussianBlue);
 text-transform: uppercase;
-font-size: 1.3rem;
+font-size: 1.1rem;
 
 
 
 }
 .pop:hover{
 transform: scale(1.1);
+background: var(--prussianBlue);
+color: white;
 
   
+  }
+  .copy {
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
   }
  
 
