@@ -71,7 +71,13 @@ body {
 	background: var(--lightBlueBg);
   font-family: var(--montSerrat);
   font-weight: 400;
+  max-width: 100%;
+  width: 100%;
   
+}
+html {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 p {
   font-family: var(--montSerrat);
@@ -79,11 +85,10 @@ p {
 a {
   font-family: var(--Oswald)
 }
-footer p {
-  font-family: var(--montSerrat);
-  font-size: 1.5rem;
-}
 
+.accordion-item {
+  padding-top: 15%;
+}
 
 .content {
   height: 100vh;
@@ -252,6 +257,50 @@ text-align: left;
   padding-left: 8px;
   color: var(--prussianBlue)
 }
+.FAQ{
+  border: 5px solid red;
+  width: 100%;
+  
+  background-color: var(--lightBlueBg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+  
+}
+.container1{
+  width: 100%;
+  max-width: 80rem;
+  margin: 5% auto;
+  padding: 2rem 1.5rem;
+}
+.accordion-item{
+  background-color: var(--prussianBlue);
+  border-radius: .4rem;
+  margin-bottom: 1rem;
+  
+  margin-top: 2rem;
+  padding: 1rem;
+  box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
+.accordion-link {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+  background-color: var(--imperialRed);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-radius: 10px;
+  
+
+}
+.answer {
+  color: white;
+  padding-top: 1rem;
+}
 
 .content {
   color:var(--prussianBlue);;
@@ -369,22 +418,55 @@ hr {
 }
 footer{
   display: flex;
-  margin: 0rem, 25rem;
-  background: var(--lightBlueBg);
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 7rem; 
+  outline: 5px solid yellow;
+ 
+  background: var(--imperialRed);
+  
+  justify-content: center;
+  height: 30vh; 
   text-align: center;
-  color: white;
+  color: var(--honeyDew);
   text-decoration: none;
   font-size: 1.125rem;
-  position: relative;
-border-top: 5px solid var(--imperialRed);
+  
+  border-top: 5px solid var(--imperialRed);
   align-items: center;
+  padding: 7rem;
+}
+footer p {
+  font-family: var(--montSerrat);
+  font-size: 1.5rem;
 }
 footer p{
   flex-direction: row;
+  padding: 0 3rem;
 }
+.flexer {
+  
+  
+  text-decoration: none;
+  margin: 1rem;
+  
+  padding: 1rem;
+}
+.flexer1 {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.flexer1:hover {
+  color: var(--prussianBlue)
+}
+.linksFooter1 {
+
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-evenly;
+ margin-left: 2rem;
+ margin-right: 2rem;
+}
+
 header .popper{
   padding:.75rem 1rem;
   background: white;
@@ -392,7 +474,7 @@ header .popper{
   border-radius: 10px;
   font-weight: 600;
   box-shadow: 2px 2px 4px var(--prussianBlue);
- 
+  margin-top: 1rem;
   
   
   
@@ -405,7 +487,7 @@ header .popper{
     }
 footer .pop{
 text-decoration: none;
-background: white;
+background: var(--honeyDew);
 border-radius: 5px;
 margin-bottom: 1%;
 text-align: center;
@@ -433,6 +515,11 @@ transform: scale(1.1);
   .upFront {
     margin: auto;
     
+  }
+  .accordion-link{
+    text-align: center;
+    align-items: center;
+    display: inline-block;
   }
 
   header {
@@ -547,12 +634,12 @@ transform: scale(1.1);
   footer{
     display: flex;
     margin: 0rem, 25rem;
-    background: var(--lightBlueBg);
+    background: var(--imperialRed);
     flex-direction: row;
     justify-content: space-evenly;
-    height: 7rem; 
+    height: 100px; 
     text-align: center;
-    color: white;
+    color: var(--honeyDew);
     text-decoration: none;
     font-size: 1.125rem;
     position: relative;
@@ -564,7 +651,7 @@ transform: scale(1.1);
   }
   .pop{
   text-decoration: none;
-  background: white;
+  background: var(--honeyDew);
   border-radius: 5px;
   margin-bottom: 1%;
   text-align: center;
