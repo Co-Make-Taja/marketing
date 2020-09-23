@@ -28,8 +28,8 @@
   background-color: var(--honeyDew);
 }
 
-#contact-info h3,
-a {
+#contact-info h3
+ {
   font-family: 'Oswald', sans-serif;
   font-size: 3rem;
   text-decoration: none;
