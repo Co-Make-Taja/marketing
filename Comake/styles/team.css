@@ -10,7 +10,6 @@
 .team-hero-image {
   background: url("/Comake/assets/tom-rumble-7lvzopTxjOU-unsplash.jpg");
   height: 80vh;
-  /* width:80%; */
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,12 +62,25 @@
   padding: 1vh 0;
 }
 
+.team-card p {
+  font-size: 1.3rem;
+}
+
 .team-member-image img {
   width: 100%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .team-card {
     width: 46%;
+  }
+}
+
+@media (max-width: 500px) {
+  .team-card {
+    width: 90%;
+  }
+  #team-gallery {
+    justify-content: center;
   }
 }
