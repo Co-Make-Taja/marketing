@@ -88,7 +88,7 @@ footer p {
 .content {
   height: 100vh;
   /*background-image: url(//unsplash.it/1000/1000);*/
-  background-color: ivory;
+  background-color: var(--honeyDew);
   /*background-blend-mode: multiply;*/
   background-size: cover;
   display: grid;
