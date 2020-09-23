@@ -70,11 +70,17 @@
   width: 100%;
 }
 
+/* TEAM-GALLERY ends here */
+
+/* MEDIA QUERY FOR TABLET */
+
 @media (max-width: 800px) {
   .team-card {
     width: 46%;
   }
 }
+
+/* MEDIA QUERY FOR MOBILE */
 
 @media (max-width: 500px) {
   #team-landing {
