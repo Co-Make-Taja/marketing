@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comake</title>
-
-    <link rel="stylesheet" type="text/css" href="styles/missionvission.css" />
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="styles/missionvission.css" /> -->
     <link rel="icon" href="assets/icon2.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
@@ -19,20 +19,43 @@
   <body>
   
 
-    <header class="menu">
-      <nav>
-        <div class="masthead">
-          <div><img class="mv-logo" src="assets/logo1.png" /></div>
-          <div><a href="index.html">Home</a></div>
-          <div><a href="mission.html">Mission</a></div>
-          <div><a href="team.html">Team</a></div>
-          <div><a href="contact.html">Contact</a></div>
-          <div><a href="faq.html">FAQ</a></div>
-          <div><a href="vision.html">Login</a></div>
+    <header>
 
-        </div>
+     
+      <img class="logo" src="./assets/logo1.png">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav class="menu-bar">
+        
+            <ul class= "homie">
+              <li ><a href="index.html">Home</a></li>
+              <li><a>About</a>
+              
+          <div class="sub-menu1">
+              <ul>
+                  <li><a href="mission.html">Mission</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  
+              </ul>
+          </li>
+          </div>
+          </li>
+
+
+          
+          <li><a href="vision.html">Vision</a></li>
+          <li class="upFront"><a class = "popper"href="mailto:agreatemail@here.com">Sign up now</a></li>
+
+        </ul>
       </nav>
+
+
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </div>
     </header>
+
     <div>
       <div class="main-body">
         <div><img class="mv-logo3" src="assets/logo1.png" /></div>
@@ -67,12 +90,28 @@
         </section>
       </div>
     </div>
-    <footer class="foot">
-      <section id="question"><p>Together we make the world better!</p></section>
-  
-      <div class="email">
-        <a href="mailto:agreatemail@here.com">Contact Us</a>
+    <footer>
+
+      <section id="question"><p>"Together we make the world better!"</p>
+      
+      </section>
+     <section>
+      <div id="contact">
+          <a class = 'email' href="mailto:agreatemail@here.com"><button class ="pop" =>Sign up now</button></a> 
+          <h6 class="copy">Comake &copy;2020</h6>
       </div>
+      </section>
+      <section>
+      <div class="linksFooter">
+        <ul class="linksFooter1">
+          <li class="flexer"><a href="index.html" class="flexer1">Home</a></li>
+          <li class="flexer"><a href="About" class="flexer1">About</a></li>
+          <li class="flexer"><a href="The Future" class="flexer1">Vision</a></li>
+          
+        </ul>
+      </div>
+    </section>
+      
     </footer>
   </body>
  
