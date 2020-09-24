@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comake</title>
 
-    <link rel="stylesheet" type="text/css" href="styles/missionvission.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="styles/missionvission.css" /> -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <link rel="icon" href="assets/icon2.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
@@ -18,18 +19,41 @@
   </head>
   <body>
 
-    <header class="menu">
-      <nav>
-        <div class="masthead">
-          <div><img class="mv-logo" src="assets/logo1.png" /></div>
-          <div><a href="index.html">Home</a></div>
-          <div><a href="mission.html">Mission</a></div>
-          <div><a href="team.html">Team</a></div>
-          <div><a href="contact.html">Contact</a></div>
-          <div><a href="faq.html">FAQ</a></div>
-          <div><a href="vision.html">Login</a></div>
-        </div>
+    <header>
+
+     
+      <img class="logo" src="./assets/logo1.png">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav class="menu-bar">
+        
+            <ul class= "homie">
+              <li ><a href="index.html">Home</a></li>
+              <li><a>About</a>
+              
+          <div class="sub-menu1">
+              <ul>
+                  <li><a href="mission.html">Mission</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  
+              </ul>
+          </li>
+          </div>
+          </li>
+
+
+          
+          <li><a href="vision.html">Vision</a></li>
+          <li class="upFront"><a class = "popper"href="mailto:agreatemail@here.com">Sign up now</a></li>
+
+        </ul>
       </nav>
+
+
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </div>
     </header>
 
     <div>
