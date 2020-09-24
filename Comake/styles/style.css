@@ -131,6 +131,7 @@ table {
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Oswald&display=swap');
 /* reset ends here*/
+/* General Styles and Variables */
 :root {
 	--background: rgba(0, 214, 170, .85);
 	--lightBlueBg: rgba(75, 136, 216);
@@ -171,6 +172,7 @@ a {
   font-size: 1.5rem;
 } */
 
+
 .accordion-item {
 	padding-top: 15%;
 }
@@ -184,7 +186,7 @@ a {
 	display: grid;
 	place-items: center;
 }
-
+/* General Styles and Variables */
 /* navigation styles start here */
 
 header {
@@ -328,6 +330,8 @@ nav a:hover {
   padding-left: 8px;
   color: var(--prussianBlue)
 }
+/* Nav styles end here */
+/* FAQ PAGE STYLE START */
 .FAQ{
   
   width: 100%;
@@ -396,7 +400,8 @@ nav a:hover {
 	color: white;
 	padding-top: 1rem;
 }
-
+/* FAQ PAGE STYLE START */
+/* Main content style start */
 .content {
 	color: var(--prussianBlue);
 	font-weight: bold;
@@ -511,6 +516,8 @@ h2 span {
 hr {
 	border: 4px solid var(--imperialRed);
 }
+/* Main content style start */
+/* FOoter & Header STYLES START */
 footer {
 	display: flex;
 	outline: 5px solid yellow;
@@ -610,7 +617,8 @@ color: white;
   }
  
 
-
+/* FOoter & Header STYLES START */
+/* Desktop Styles Start */
 @media screen and (min-width: 800px) {
 	.nav-toggle-label {
 		display: none;
@@ -753,3 +761,4 @@ color: white;
 	color: white;
 	text-decoration: none;
 }
+/* Desktop Styles Start */
